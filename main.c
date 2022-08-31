@@ -36,6 +36,7 @@ int main()
  printf("%d", addOvf(res, x, y));
 
  printf("\n %d", *res);
+ free(res);
  getchar();
  return 0;
 }
